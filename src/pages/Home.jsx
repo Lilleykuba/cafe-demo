@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
             <p className="mb-5">
               Your cozy corner for the best coffee in town.
             </p>
-            <Link to=".pages/menu" className="btn btn-primary">
+            <Link to="/menu" className="btn btn-primary">
               View Menu
             </Link>
           </div>
