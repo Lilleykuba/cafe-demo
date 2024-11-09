@@ -18,7 +18,7 @@ function Home() {
             <p className="mb-5">
               Your cozy corner for the best coffee in town.
             </p>
-            <Link to="/menu" className="btn btn-primary">
+            <Link to=".pages/menu" className="btn btn-primary">
               View Menu
             </Link>
           </div>

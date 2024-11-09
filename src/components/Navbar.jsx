@@ -9,23 +9,23 @@ function Navbar() {
       <div className="container mx-auto">
         <div className="flex-none lg:flex">
           <div className="flex-1">
-            <Link to="/" className="text-2xl font-bold">
+            <Link to=".pages/" className="text-2xl font-bold">
               Cafe Demo
             </Link>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link to="/">Home</Link>
+                <Link to=".pages/">Home</Link>
               </li>
               <li>
-                <Link to="/menu">Menu</Link>
+                <Link to=".pages/menu">Menu</Link>
               </li>
               <li>
-                <Link to="/news">News</Link>
+                <Link to=".pages/news">News</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to=".pages/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -66,22 +66,22 @@ function Navbar() {
           <div className="flex flex-col lg:hidden">
             <ul className="menu menu-vertical p-2">
               <li>
-                <Link to="/" onClick={() => setMenuOpen(false)}>
+                <Link to=".pages/" onClick={() => setMenuOpen(false)}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/menu" onClick={() => setMenuOpen(false)}>
+                <Link to=".pages/menu" onClick={() => setMenuOpen(false)}>
                   Menu
                 </Link>
               </li>
               <li>
-                <Link to="/news" onClick={() => setMenuOpen(false)}>
+                <Link to=".pages/news" onClick={() => setMenuOpen(false)}>
                   News
                 </Link>
               </li>
               <li>
-                <Link to="/contact" onClick={() => setMenuOpen(false)}>
+                <Link to=".pages/contact" onClick={() => setMenuOpen(false)}>
                   Contact
                 </Link>
               </li>
