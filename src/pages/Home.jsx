@@ -7,7 +7,7 @@ function Home() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url('/uploads/kbc-bubbles-1.png')`,
+          backgroundImage: `url('public/uploads/dall·e-2024-11-09-23.10.28-a-warm-inviting-hero-image-for-a-cafe-website.-the-scene-shows-a-cozy-modern-cafe-interior-with-a-mix-of-wooden-and-industrial-style-decor.-soft-am.webp')`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -35,11 +35,14 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="card bg-base-100 shadow-md">
             <figure>
-              <img src="/path-to-image.jpg" alt="Specialty" />
+              <img
+                src="public/uploads/dall·e-2024-11-09-23.13.56-a-beautiful-close-up-ad-image-of-a-coffee-latte-cappuccino-in-a-stylish-ceramic-cup-with-creamy-foam-art-on-top-in-a-heart-shape.-the-cup-is-set-on-.webp"
+                alt="Specialty"
+              />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Specialty Name</h2>
-              <p>Description of the specialty.</p>
+              <h2 className="card-title">Kávička</h2>
+              <p>Káva s překvapením.</p>
             </div>
           </div>
         </div>
