@@ -1,7 +1,16 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      primary: '#a855f7',
+      secondary: '#ec4899',},
   },
-  plugins: [],
+  fontFamily: {
+    sans: ['Inter', 'sans-serif'],
+  },
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["cupcake"], // You can choose other themes like 'forest', 'synthwave', 'retro', etc.
+  },
 };
