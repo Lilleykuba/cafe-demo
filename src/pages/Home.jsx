@@ -41,8 +41,32 @@ function Home() {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Kávička</h2>
-              <p>Káva s překvapením.</p>
+              <h2 className="card-title">Kávička 1</h2>
+              <p>Káva se srdíčkem.</p>
+            </div>
+          </div>
+          <div className="card bg-base-100 shadow-md">
+            <figure>
+              <img
+                src="/uploads/dall·e-2024-11-09-23.30.43-a-close-up-ad-image-of-an-espresso-shot-served-in-a-small-ceramic-cup-with-a-rich-dark-crema-on-top.-the-cup-is-placed-on-a-rustic-wooden-surface-wi.webp"
+                alt="Specialty"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Kávička 2</h2>
+              <p>Káva old-school.</p>
+            </div>
+          </div>
+          <div className="card bg-base-100 shadow-md">
+            <figure>
+              <img
+                src="/uploads/dall·e-2024-11-09-23.30.46-a-vibrant-ad-image-of-an-iced-coffee-served-in-a-tall-glass-filled-with-ice-cubes-and-rich-creamy-layers-of-coffee-and-milk.-the-drink-is-topped-with.webp"
+                alt="Specialty"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Kávička 3</h2>
+              <p>Ledová káva</p>
             </div>
           </div>
         </div>
