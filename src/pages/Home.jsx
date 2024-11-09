@@ -6,7 +6,7 @@ function Home() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url('/path-to-your-image.jpg')`,
+          backgroundImage: `public/uploads/kbc-bubbles-1.png`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
