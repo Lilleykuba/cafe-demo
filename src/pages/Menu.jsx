@@ -1,7 +1,23 @@
 import React, { useEffect, useState } from "react";
 
 function Menu() {
-  // ... existing code
+  const [menuItems, setMenuItems] = useState([]);
+
+  useEffect(() => {
+    const importMenuItems = async () => {
+      const menuModules = import.meta.glob("/src/content/menu/*.json");
+      const items = [];
+
+      for (const path in menuModules) {
+        const module = await menuModules[path]();
+        items.push(module.default);
+      }
+
+      setMenuItems(items);
+    };
+
+    importMenuItems();
+  }, []);
 
   return (
     <div className="container mx-auto p-4">
