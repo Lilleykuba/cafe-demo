@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "menu"
+    label: "Menu"
+    folder: "src/content/menu"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+
+  - name: "news"
+    label: "News"
+    folder: "src/content/news"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Content", name: "body", widget: "markdown" }
