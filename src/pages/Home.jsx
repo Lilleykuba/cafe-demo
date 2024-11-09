@@ -7,7 +7,7 @@ function Home() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url('public/uploads/dall·e-2024-11-09-23.10.28-a-warm-inviting-hero-image-for-a-cafe-website.-the-scene-shows-a-cozy-modern-cafe-interior-with-a-mix-of-wooden-and-industrial-style-decor.-soft-am.webp')`,
+          backgroundImage: `url('/uploads/dall·e-2024-11-09-23.10.28-a-warm-inviting-hero-image-for-a-cafe-website.-the-scene-shows-a-cozy-modern-cafe-interior-with-a-mix-of-wooden-and-industrial-style-decor.-soft-am.webp')`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -36,7 +36,7 @@ function Home() {
           <div className="card bg-base-100 shadow-md">
             <figure>
               <img
-                src="public/uploads/dall·e-2024-11-09-23.13.56-a-beautiful-close-up-ad-image-of-a-coffee-latte-cappuccino-in-a-stylish-ceramic-cup-with-creamy-foam-art-on-top-in-a-heart-shape.-the-cup-is-set-on-.webp"
+                src= `url('/uploads/dall·e-2024-11-09-23.13.56-a-beautiful-close-up-ad-image-of-a-coffee-latte-cappuccino-in-a-stylish-ceramic-cup-with-creamy-foam-art-on-top-in-a-heart-shape.-the-cup-is-set-on-.webp')`,
                 alt="Specialty"
               />
             </figure>
