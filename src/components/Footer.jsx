@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-base-200 text-base-content">
       <div className="container mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
+          <div className="text-center md:text-left">
             <h2 className="footer-title">Naše Kavárna</h2>
             <ul className="list-none">
               <li>
@@ -26,7 +26,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h2 className="footer-title">Více o Nás</h2>
             <ul className="list-none">
               <li>
@@ -41,7 +41,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-left">
             <h2 className="footer-title">Spojte se s námi</h2>
             <ul className="list-none">
               <li>
@@ -64,7 +64,8 @@ function Footer() {
         </div>
         <div className="mt-8 text-center">
           <p>
-            &copy; {new Date().getFullYear()} Demo Kavárna. All rights reserved.
+            &copy; {new Date().getFullYear()} Demo Kavárna. Všechna práva
+            vyhrazena.
           </p>
         </div>
       </div>
