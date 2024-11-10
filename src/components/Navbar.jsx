@@ -10,22 +10,22 @@ function Navbar() {
         <div className="flex-none lg:flex">
           <div className="flex-1">
             <Link to="/" className="text-2xl font-bold">
-              Cafe Demo
+              Demo Kavárna
             </Link>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Domů</Link>
               </li>
               <li>
                 <Link to="/menu">Menu</Link>
               </li>
               <li>
-                <Link to="/news">News</Link>
+                <Link to="/news">Aktuality</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">O Nás</Link>
               </li>
             </ul>
           </div>
@@ -67,7 +67,7 @@ function Navbar() {
             <ul className="menu menu-vertical p-2">
               <li>
                 <Link to="/" onClick={() => setMenuOpen(false)}>
-                  Home
+                  Domů
                 </Link>
               </li>
               <li>
@@ -77,12 +77,12 @@ function Navbar() {
               </li>
               <li>
                 <Link to="/news" onClick={() => setMenuOpen(false)}>
-                  News
+                  Aktuality
                 </Link>
               </li>
               <li>
                 <Link to="/contact" onClick={() => setMenuOpen(false)}>
-                  Contact
+                  O Nás
                 </Link>
               </li>
             </ul>

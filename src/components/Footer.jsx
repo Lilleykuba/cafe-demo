@@ -6,28 +6,28 @@ function Footer() {
     <footer className="footer p-10 bg-base-200 text-base-content">
       <div className="container mx-auto">
         <div>
-          <span className="footer-title">Services</span>
+          <span className="footer-title">Služby</span>
           <Link to="/menu" className="link link-hover">
             Menu
           </Link>
           <Link to="/news" className="link link-hover">
-            News
+            Aktuality
           </Link>
           <Link to="/contact" className="link link-hover">
-            Contact
+            O Nás
           </Link>
         </div>
         <div>
-          <span className="footer-title">Company</span>
+          <span className="footer-title">Naše kavárna</span>
           <Link to="/" className="link link-hover">
-            About us
+            O Nás
           </Link>
           <Link to="/privacy-policy" className="link link-hover">
             Privacy Policy
           </Link>
         </div>
         <div>
-          <span className="footer-title">Social</span>
+          <span className="footer-title">Spojte se s námi</span>
           <a href="#" className="link link-hover">
             Facebook
           </a>
@@ -40,7 +40,9 @@ function Footer() {
         </div>
       </div>
       <div className="container mx-auto text-center mt-4">
-        <p>&copy; {new Date().getFullYear()} Cafe Demo. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} Demo Kavárna. All rights reserved.
+        </p>
       </div>
     </footer>
   );

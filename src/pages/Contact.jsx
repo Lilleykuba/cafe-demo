@@ -5,26 +5,24 @@ import React from "react";
 function Contact() {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-8 text-center">Contact Us</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">O Nás</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Contact Information and Map */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
+          <h2 className="text-2xl font-bold mb-4">Spojte se s námi</h2>
           <p className="mb-2">
-            <span className="font-semibold">Address:</span> 123 Coffee Lane,
-            Bean Town
+            <span className="font-semibold">Adresa:</span> 123 Coffee Lane, Bean
+            Town
           </p>
           <p className="mb-2">
-            <span className="font-semibold">Phone:</span> (123) 456-7890
+            <span className="font-semibold">Telefon:</span> +420 123456789
           </p>
           <p className="mb-2">
-            <span className="font-semibold">Email:</span> info@cafedemo.com
+            <span className="font-semibold">Email:</span> demokavarna@gmail.com
           </p>
           <p className="mb-4">
-            We are open from{" "}
-            <span className="font-semibold">
-              Monday to Friday, 8 AM to 6 PM
-            </span>
+            Máme otevřeno:{" "}
+            <span className="font-semibold">Pondělí - Pátek, 8:00 - 18:00</span>
             .
           </p>
           {/* Embedded Google Map */}
@@ -42,7 +40,7 @@ function Contact() {
         </div>
         {/* Contact Form */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Send Us a Message</h2>
+          <h2 className="text-2xl font-bold mb-4">Napište nám</h2>
           <form
             name="contact"
             method="POST"
@@ -59,7 +57,7 @@ function Contact() {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Your Name</span>
+                <span className="label-text">Vaše Jméno</span>
               </label>
               <input
                 type="text"
@@ -70,7 +68,7 @@ function Contact() {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Your Email</span>
+                <span className="label-text">Váš Email</span>
               </label>
               <input
                 type="email"
@@ -81,7 +79,7 @@ function Contact() {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Message</span>
+                <span className="label-text">Zpráva</span>
               </label>
               <textarea
                 name="message"
@@ -92,7 +90,7 @@ function Contact() {
             </div>
             <div>
               <button type="submit" className="btn btn-primary w-full">
-                Send Message
+                Odeslat Zprávu
               </button>
             </div>
           </form>

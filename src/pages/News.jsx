@@ -24,7 +24,7 @@ function News() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-8 text-center">Latest News</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Aktuality</h1>
       <div className="space-y-8">
         {newsPosts.map((post, index) => (
           <div key={index} className="card bg-base-100 shadow-md">

@@ -21,7 +21,7 @@ function Menu() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-8 text-center">Our Menu</h1>
+      <h1 className="text-4xl font-bold mb-8 text-center">Naše Nabídka</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {menuItems.map((item, index) => (
           <div key={index} className="card bg-base-100 shadow-md">

@@ -16,13 +16,11 @@ function Home() {
         <div className="hero-content text-center text-neutral-content px-4">
           <div className="max-w-md">
             <h1 className="mb-5 text-3xl md:text-5xl font-bold">
-              Welcome to Cafe Demo
+              Vítejte v Demo Kavárně
             </h1>
-            <p className="mb-5">
-              Your cozy corner for the best coffee in town.
-            </p>
+            <p className="mb-5">Nejlepší kafe v Brně v útulném prostředí</p>
             <Link to="/menu" className="btn btn-primary">
-              View Menu
+              Naše nabídka
             </Link>
           </div>
         </div>
@@ -30,7 +28,7 @@ function Home() {
 
       <div className="container mx-auto my-10 px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-          Our Specialties
+          Naše speciality
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="card bg-base-100 shadow-md">
