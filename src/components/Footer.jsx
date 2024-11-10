@@ -3,46 +3,70 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content">
-      <div className="container mx-auto">
-        <div>
-          <span className="footer-title">Služby</span>
-          <Link to="/menu" className="link link-hover">
-            Menu
-          </Link>
-          <Link to="/news" className="link link-hover">
-            Aktuality
-          </Link>
-          <Link to="/contact" className="link link-hover">
-            O Nás
-          </Link>
+    <footer className="bg-base-200 text-base-content">
+      <div className="container mx-auto py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h2 className="footer-title">Služby</h2>
+            <ul className="list-none">
+              <li>
+                <Link to="/menu" className="link link-hover">
+                  Menu
+                </Link>
+              </li>
+              <li>
+                <Link to="/news" className="link link-hover">
+                  Aktuality
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="link link-hover">
+                  O Nás
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="footer-title">Naše kavárna</h2>
+            <ul className="list-none">
+              <li>
+                <Link to="/" className="link link-hover">
+                  O Nás
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy" className="link link-hover">
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="footer-title">Spojte se s námi</h2>
+            <ul className="list-none">
+              <li>
+                <a href="#" className="link link-hover">
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#" className="link link-hover">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="#" className="link link-hover">
+                  Twitter
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <span className="footer-title">Naše kavárna</span>
-          <Link to="/" className="link link-hover">
-            O Nás
-          </Link>
-          <Link to="/privacy-policy" className="link link-hover">
-            Privacy Policy
-          </Link>
+        <div className="mt-8 text-center">
+          <p>
+            &copy; {new Date().getFullYear()} Demo Kavárna. All rights reserved.
+          </p>
         </div>
-        <div>
-          <span className="footer-title">Spojte se s námi</span>
-          <a href="#" className="link link-hover">
-            Facebook
-          </a>
-          <a href="#" className="link link-hover">
-            Instagram
-          </a>
-          <a href="#" className="link link-hover">
-            Twitter
-          </a>
-        </div>
-      </div>
-      <div className="container mx-auto text-center mt-4">
-        <p>
-          &copy; {new Date().getFullYear()} Demo Kavárna. All rights reserved.
-        </p>
       </div>
     </footer>
   );
