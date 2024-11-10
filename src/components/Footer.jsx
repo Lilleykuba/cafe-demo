@@ -7,7 +7,7 @@ function Footer() {
       <div className="container mx-auto py-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h2 className="footer-title">Služby</h2>
+            <h2 className="footer-title">Naše Kavárna</h2>
             <ul className="list-none">
               <li>
                 <Link to="/menu" className="link link-hover">
@@ -27,7 +27,7 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="footer-title">Naše kavárna</h2>
+            <h2 className="footer-title">Více o Nás</h2>
             <ul className="list-none">
               <li>
                 <Link to="/" className="link link-hover">

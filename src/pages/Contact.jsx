@@ -9,7 +9,7 @@ function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Contact Information and Map */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Spojte se s námi</h2>
+          <h2 className="text-2xl font-bold mb-4">Stavte se k nám</h2>
           <p className="mb-2">
             <span className="font-semibold">Adresa:</span> 123 Coffee Lane, Bean
             Town

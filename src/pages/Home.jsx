@@ -8,7 +8,7 @@ function Home() {
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url('/uploads/dall-e-cafe-hero-image.webp')`,
+          backgroundImage: `url('/uploads/dall·e-2024-11-09-23.10.28-a-warm-inviting-hero-image-for-a-cafe-website.-the-scene-shows-a-cozy-modern-cafe-interior-with-a-mix-of-wooden-and-industrial-style-decor.-soft-am.webp')`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -37,7 +37,7 @@ function Home() {
           <div className="card bg-base-100 shadow-md">
             <figure>
               <img
-                src="/uploads/dall-e-coffee-latte-cappuccino.webp"
+                src="/uploads/dall·e-2024-11-09-23.13.56-a-beautiful-close-up-ad-image-of-a-coffee-latte-cappuccino-in-a-stylish-ceramic-cup-with-creamy-foam-art-on-top-in-a-heart-shape.-the-cup-is-set-on-.webp"
                 alt="Kávička 1"
                 className="w-full h-auto"
               />
@@ -51,7 +51,7 @@ function Home() {
           <div className="card bg-base-100 shadow-md">
             <figure>
               <img
-                src="/uploads/dall-e-espresso-shot.webp"
+                src="/uploads/dall·e-2024-11-09-23.30.43-a-close-up-ad-image-of-an-espresso-shot-served-in-a-small-ceramic-cup-with-a-rich-dark-crema-on-top.-the-cup-is-placed-on-a-rustic-wooden-surface-wi.webp"
                 alt="Kávička 2"
                 className="w-full h-auto"
               />
@@ -65,7 +65,7 @@ function Home() {
           <div className="card bg-base-100 shadow-md">
             <figure>
               <img
-                src="/uploads/dall-e-iced-coffee.webp"
+                src="/uploads/dall·e-2024-11-09-23.30.46-a-vibrant-ad-image-of-an-iced-coffee-served-in-a-tall-glass-filled-with-ice-cubes-and-rich-creamy-layers-of-coffee-and-milk.-the-drink-is-topped-with.webp"
                 alt="Kávička 3"
                 className="w-full h-auto"
               />
@@ -87,7 +87,7 @@ function Home() {
             kávu a domácí zákusky. Přijďte si vychutnat příjemnou atmosféru a
             milý personál.
           </p>
-          <Link to="/about" className="btn btn-secondary">
+          <Link to="/contact" className="btn btn-secondary">
             Více o nás
           </Link>
         </div>
@@ -113,12 +113,12 @@ function Home() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center md:text-left">
                 Kde nás najdete
               </h2>
-              <div className="w-full h-64">
+              <div className="mt-8">
                 <iframe
-                  title="Mapa kavárny"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dXXXXXXX"
+                  title="Cafe Demo Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0197378999563!2d-122.4194150846815!3d37.7749297797599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064bfba1e6f%3A0x4e9b6b0faffc7d7d!2sCoffee%20Shop!5e0!3m2!1sen!2sus!4v1616086427584!5m2!1sen!2sus"
                   width="100%"
-                  height="100%"
+                  height="300"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
